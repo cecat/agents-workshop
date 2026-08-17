@@ -49,22 +49,23 @@ Consortium ([TPC](www.tpc.dev)) \[1].
 The challenges associated with designing and deploying a scientific instrument in
 the public way, including siting, operations, privacy, and other facets are well
 documented, including collaborations between the University of Bristol, the University
-of Chicago, and Argonne National Laboratory on projects such as the Array of Things \[2].
+of Chicago, and Argonne National Laboratory on projects such as the Array of Things \[2]; a parallel line of work argues for
+urban sensing itself as essential civic infrastructure \[3].
 Embedding computation with sensors transformed sensor networks from
 data loggers into programmable, reconfigurable observers able to decide in
-place what is worth recording \[3]. Among the constraints are not only technical
+place what is worth recording \[4]. Among the constraints are not only technical
 but social, requiring partnerships encompassing residents, local government, and
-researchers, each with standing to shape what gets measured and why \[4].
+researchers, each with standing to shape what gets measured and why \[5].
 
 In the past several years, two new opportunities have emerged. 
 First, agentic AI systems can hold goals, maintain memory over long
 timescales, use tools, and negotiate with one another. These change the human-to-AI
 relationship from 1:1 to 1:many (human to a set of agents) and many:many (agents
 interacting). Early experiments already span that range: a single agent running a retail
-business was outperformed by a role-differentiated team of agents \[5], a simulated
-software company assigns agents the roles of a development organisation \[6], and Moltbook,
+business was outperformed by a role-differentiated team of agents \[6], a simulated
+software company assigns agents the roles of a development organisation \[7], and Moltbook,
 a social network open only to AI agents, hosts unsupervised many:many interaction at a
-claimed scale of over a million accounts \[7].
+claimed scale of over a million accounts \[8].
 Second,  protocols such as the Model Context Protocol (MCP) enable agents to
 mediate between the instrument and a human through natural language.
 For example, the Sage project (successor to Array of Things) operates an
@@ -72,7 +73,7 @@ MCP server over its ~150-node software-defined sensor network
 and archives, empowering a user to query readings, search node imagery semantically, find an
 existing computer-vision plugin, and deploy observational functions to named nodes —
 "count pedestrians every 15 minutes," "report any sighting of wildfire smoke" — without
-writing code \[8]. Together these shifts make qualitatively new questions tractable on
+writing code \[9]. Together these shifts make qualitatively new questions tractable on
 instruments we already know how to build, deploy, and govern.
 
 ---
@@ -87,11 +88,12 @@ streets and public squares, and the interiors of buildings. These settings diffe
 timescale, in what counts as an event, in power and connectivity, and in constraints
 with respect to privacy and culture.
 An important goal for the workshop is to explore which answers transfer between
-venues and which are irreducibly local.
+venues and which are irreducibly local — a question already posed for urban prediction
+models asked to move between cities \[10].
 
 **Learning What Is Normal, and Recognising What Is Not**
 
-- Multi-dimensional representations of baseline conditions across camera, lidar, audio, vibration, meteorology, and air quality
+- Multi-dimensional representations of baseline conditions across camera, lidar, audio, vibration, meteorology, and air quality, including embeddings that fuse dissimilar modalities \[11]
 - Robustness of learned baselines to seasonality, sensor drift, and genuine environmental change
 - Distinguishing a novel observation from a miscalibrated instrument
 
@@ -106,13 +108,14 @@ venues and which are irreducibly local.
 
 - Agentic frameworks suited to sensor-attached, resource-constrained, long-running deployments
 - Edge/cloud division of labour, integrating modeling (e.g., "Digital Twins") with edge inference
+- Testbed design and operation, and the pitfalls already catalogued for smart-city IoT testbeds \[12]
 - Reproducibility and provenance when an observation was requested by an agent
 
 **Coordination Among Fixed Embodied Agents**
 
 - Collective monitoring of a shared subject: a wetland or river catchment, a farm, a forest, a city centre, a building or campus
 - Agentic coordination, from exchanging observation requests to resource and sharing management
-- Communication mechanisms ranging from shared and federated memory to message passing
+- Communication mechanisms ranging from shared and federated memory to message passing, including federated learning of a shared model without centralising raw data \[13]
 - Organisational structures for agentic monitoring networks, including topologies and structures that might be unworkable for human teams
 
 **Topics reserved for a follow-on workshop.** The programme above sets aside several
@@ -125,7 +128,8 @@ where agents pre-position lighting and HVAC against learned occupancy rhythms;
 *event-triggered capture as a privacy architecture*, in which a rolling buffer retained only
 when an anomaly fires replaces the continuous archive; the wider questions of *privacy,
 ethics, and public legitimacy* in sensor-rich places, including how UK and US regimes shape
-what a joint testbed may do; *human–agent interfaces* for expert operators and for the
+what a joint testbed may do, and where behavioural information leaks from sensor traffic
+metadata even when payloads are protected \[14]; *human–agent interfaces* for expert operators and for the
 policy makers, city staff, residents, and students that conversational access newly admits;
 and the *failure modes of open agent societies*, where experiments such as Moltbook have
 produced emergent culture alongside agents trading prompt injections as "digital drugs."
@@ -198,27 +202,52 @@ that could seed multi-institutional collaborations.
    Learned." *Proc. 2nd International Workshop on Science of Smart City Operations and
    Platforms Engineering (SCOPE '17)*, ACM, 2017, pp. 26–33.
    https://dl.acm.org/doi/abs/10.1145/3063386.3063771
-3. Catlett, C. E., Beckman, P. H., Sankaran, R., Ferrier, N. J., Park, S., and Kim, Y.
+3. Kumar, V., Oikonomou, G., and Tryfonas, T. "An Urban Sensing Architecture as Essential
+   Infrastructure for Future Cities." *Proc. 14th IEEE/ACM International Conference on
+   Utility and Cloud Computing Companion (UCC '21 Companion)*, 2021, pp. 1–3.
+   https://doi.org/10.1145/3492323.3503507
+4. Catlett, C. E., Beckman, P. H., Sankaran, R., Ferrier, N. J., Park, S., and Kim, Y.
    "Software-Defined Sensors: Using Edge Computing to Revolutionize Sensing." *AGU Fall
    Meeting Abstracts*, vol. 2019, IN34A-01, 2019.
    https://ui.adsabs.harvard.edu/abs/2019AGUFMIN34A..01C/abstract
-4. Daepp, M. I. G., Cabral, A., Werner, T. M., Mansour, R., Catlett, C. E., Roseway, A.,
+5. Daepp, M. I. G., Cabral, A., Werner, T. M., Mansour, R., Catlett, C. E., Roseway, A.,
    Needham, C., Udeagbala, N., and Counts, S. "The 'Three-Legged Stool': Designing for
    Equitable City, Community, and Research Partnerships in Urban Environmental Sensing."
    *Proc. 2023 CHI Conference on Human Factors in Computing Systems*, 2023, pp. 1–19.
    https://doi.org/10.1145/3544548.3581289
-5. Anthropic and Andon Labs. "Project Vend," phases one and two, 2025 — a single agent
+6. Anthropic and Andon Labs. "Project Vend," phases one and two, 2025 — a single agent
    versus a role-differentiated team of agents running a small retail business.
    https://www.anthropic.com/research/project-vend-1 and
    https://www.anthropic.com/research/project-vend-2
-6. Qian, C., Liu, W., Liu, H., Chen, N., Dang, Y., Li, J., Yang, C., Chen, W., Su, Y.,
+7. Qian, C., Liu, W., Liu, H., Chen, N., Dang, Y., Li, J., Yang, C., Chen, W., Su, Y.,
    Cong, X., Xu, J., Li, D., Liu, Z., and Sun, M. "ChatDev: Communicative Agents for
    Software Development." *Proc. 62nd Annual Meeting of the ACL*, 2024; arXiv:2307.07924.
    https://arxiv.org/abs/2307.07924
-7. Yildiz, G. "Inside Moltbook: The Social Network Where 1.4 Million AI Agents Talk And
+8. Yildiz, G. "Inside Moltbook: The Social Network Where 1.4 Million AI Agents Talk And
    Humans Just Watch." *Forbes*, 31 January 2026.
    https://www.forbes.com/sites/guneyyildiz/2026/01/31/inside-moltbook-the-social-network-where-14-million-ai-agents-talk-and-humans-just-watch/
-8. Sage: A distributed software-defined sensor network — project overview and the Sage MCP
+9. Sage: A distributed software-defined sensor network — project overview and the Sage MCP
    server. https://sagecontinuum.org/docs/about/overview ,
    https://sagecontinuum.org/labs/sage-mcp , and
    https://github.com/waggle-sensor/sage-mcp
+10. Erdol, H., Klar, R., Angelakis, V., Pope, J., Piechocki, R. J., Tryfonas, T., and
+    Oikonomou, G. "City-Agnostic Demand Prediction: A Graph Attention Approach for Urban
+    Transfer Learning." *2025 IEEE International Smart Cities Conference (ISC2)*, 2025,
+    pp. 1–6. https://doi.org/10.1109/ISC266238.2025.11293298
+11. Singh, P., Huang, Y., Li, H., Oikonomou, G., and Pope, J. "Multi-Modal Model for
+    Embedding Network and Audit Data for IoT Anomaly Detection." *Proc. 12th International
+    Conference on Information Systems Security and Privacy (ICISSP)*, vol. 2, 2026,
+    pp. 396–405. https://doi.org/10.5220/0014470300004061
+12. Kumar, V., Gunner, S., Spyridopoulos, T., Vafeas, A., Pope, J., Yadav, P.,
+    Oikonomou, G., and Tryfonas, T. "Challenges in the Design and Implementation of IoT
+    Testbeds in Smart-Cities: A Systematic Review." arXiv:2302.11009, 2023.
+    https://arxiv.org/abs/2302.11009
+13. Pope, J., Spyridopoulos, T., Kumar, V., Raimondo, F., Gunner, S., Oikonomou, G.,
+    Pasquier, T., McConville, R., Carnelli, P., Sanchez-Mompo, A., Mavromatis, I., and
+    Khan, A. "Intrusion Detection at the IoT Edge Using Federated Learning." *Security and
+    Privacy in Smart Environments*, LNCS, Springer, 2025, pp. 98–119.
+    https://doi.org/10.1007/978-3-031-66708-4_5
+14. Fafoutis, X., Marchegiani, L., Papadopoulos, G. Z., Piechocki, R., Tryfonas, T., and
+    Oikonomou, G. "Privacy Leakage of Physical Activity Levels in Wireless Embedded
+    Wearable Systems." *IEEE Signal Processing Letters*, vol. 24, no. 2, 2017,
+    pp. 136–140. https://doi.org/10.1109/LSP.2016.2642300
