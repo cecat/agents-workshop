@@ -24,13 +24,16 @@ imagers.  Combining sensor nodes with AI agents opens the potential for those ag
 This one-day workshop asks
 how embodied agentic systems at fixed locations in natural and urban environments develop
 a multi-modal sense of what is "typical" — and therefore recognise "unusual" or "interesting"
-events and conditions. Building on multile intelligent sensing and urban and environmentsl
+events and conditions.
+
+Building on multile intelligent sensing and urban and environmentsl
 monitoring projects over the past decade, 
 we focus on four coupled questions:
 how agents form and
 maintain representations of baseline conditions and common events;
-how agentic memory systems consolidate and retrieve the observations those representations
-require given limited context constraints;
+how agentic memory architecture and associated tools in agentic frameworks 
+(e.g., OpenClaw, Hermes) make these repreentations
+available to agents given limited context constraints;
 what frameworks make such approaches experimentally testable on real instruments; and
 how multiple fixed agents coordinate to monitor a shared subject, such as a wetland,
 river, forest, farm, city centre, or building.
