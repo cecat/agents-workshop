@@ -13,7 +13,7 @@
 
 ## Abstract
 
-Sensor networks record conditions and events using sensors ranging from straightforward
+Sensor networks record conditions and events using sensors with outputs ranging from straightforward
 measurements such as of temperature, light, etc . to data streams such as from microphones
 or imaging devices such as camearas or Lidar.
 Combining sensor nodes with AI has enabled scientists to create new kinds of measurements,
