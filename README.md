@@ -6,7 +6,7 @@
 2. **Agents in Place: Learning What Is Normal in Natural and Urban Environments**
 3. **Sensing Without Surveilling: Agentic Intelligence for Environmental and Urban Observation**
 
-**Date:** Wednesday, 28 October 2026
+**Tentative Date:** Wednesday, 28 October 2026
 **Venue:** University of Bristol, Bristol, UK
 
 ---
