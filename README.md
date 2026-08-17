@@ -39,8 +39,8 @@ how multiple fixed agents coordinate to monitor a shared subject, such as a wetl
 river, forest, farm, city centre, or building.
 
 We invite UK-based researchers with interest and experience in these topics, with the
-goal of identifying and exploring collaborations, potentially proposing a future
-hackathon and a persistent working group through the international Trillion Parameter
+goal of identifying and exploring collaborations, including potentially organizing a 
+hackathon in 2027 and a persistent working group through the international Trillion Parameter
 Consortiumn ([TPC](www.tpc.dev)).
 
 ---
