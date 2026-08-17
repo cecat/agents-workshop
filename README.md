@@ -153,28 +153,29 @@ Fixed Agents*.
 | 09:00 | Welcome and introductions |
 | 09:15 | Two framing talks (15 min each) |
 | 09:45 | Plenary discussion |
-| 10:45 | Break |
+| 10:30 | Break |
 | 11:00 | Session 1 — three talks, then discussion |
 | 12:30 | Lunch |
-| 13:15 | Session 2 — three talks, then discussion |
-| 14:45 | Break |
-| 15:00 | Session 3 — three talks, then discussion |
-| 16:30 | Closing: collaborations and TPC working groups |
-| 17:15 | Close |
+| 14:00 | Session 2 — three talks, then discussion |
+| 15:30 | Break |
+| 16:00 | Session 3 — three talks, then discussion |
+| 17:30 | Closing discussion and next steps |
+| 17:45 | Adjourn |
 
 ---
 
 ## Submissions
 
-**We invite** proposals for 10-minute talks, along with position papers, testbed and dataset
-descriptions, and negative results, from UK-based researchers and practitioners across
-environmental and urban sensing, agentic AI systems, and data governance. Submissions of
-1–2 pages are reviewed by the organizing committee, with priority given to contributions
-that could seed a multi-institutional collaboration.
+**We invite** proposals in the form of 150-word abstracts for 10-minute talks
+from UK-based researchers and practitioners across
+environmental and urban sensing, agentic AI systems, smart cities, and areas
+related to the topics described above. Submissions will be reviewed
+by the organizing committee, with priority given to contributions
+that could seed multi-institutional collaborations.
 
-- **Submission deadline:** *[to be set]*
-- **Notification:** *[to be set]*
-- **Contact:** *[to be set]*
+- **Submission deadline:** October 12, 2026
+- **Notification:** October 16, 2026
+- **Contact:** James Pope (jp16127 at bristol dot ac dot uk), Theo Tryfonas (theo dot tryfonas at bristol dot ac dot uk), or Charlie Catlett (catlett at anl dot gov).
 
 ---
 
