@@ -47,69 +47,68 @@ Consortiumn ([TPC](www.tpc.dev)).
 
 ## Background
 
-Deploying a scientific instrument in the public way is a solved-enough problem that its
-early lessons — on siting, on operations, and on the privacy commitments that make a public
-deployment defensible — are documented \[1]. Moving computation to the sensor turned those
-instruments from data loggers into programmable, reconfigurable observers able to decide in
-place what is worth recording \[2]. The hardest constraint is not technical: equitable
-environmental sensing depends on a "three-legged stool" of civic, community, and research
-partners, each with standing to shape what gets measured and why \[3].
+The challenges associated with designing and deploying a scientific instrument in
+the public way, including siting, orations, privacy, and other facets are well
+documented, including collaborations between the University of Bristol, the University
+of CHicago, and Argonne National Laboratory on projects such as the Array of Things \[1].
+Eembedding computation with sensors transformed the concept of sensor networkjs from
+from data loggers into programmable, reconfigurable observers able to decide in
+place what is worth recording \[2]. Among the constraints are not only technical
+but social, requiring partnerships encompassing residents, local government, and
+researchers, each with standing to shape what gets measured and why \[3].
 
-Two things have now changed. Agentic AI systems can hold goals, maintain memory over long
-timescales, use tools, and negotiate with one another. And protocols such as the Model
-Context Protocol (MCP) make the interface to an instrument a conversation rather than an
-API: the Sage project runs an MCP server over its ~100-node software-defined sensor network
-and archive, so a user can query readings, search node imagery semantically, find an
-existing computer-vision plugin, and deploy an observational function to named nodes —
+In the past several years, two new opportunities have emerged. 
+First, egentic AI systems can hold goals, maintain memory over long
+timescales, use tools, and negotiate with one another. 
+Second,  protocols such as the Model Context Protocol (MCP) enable agents to
+mediate between the instrument and a human through natural language.
+For example, the Sage project (successor to Array of Thingsd) operates an
+MCP server over its ~150-node software-defined sensor network
+and archives, empowering a user to query readings, search node imagery semantically, find an
+existing computer-vision plugin, and deploy observational functions to named nodes —
 "count pedestrians every 15 minutes," "report any sighting of wildfire smoke" — without
-writing code \[4]. Together these shifts make a genuinely new question tractable on
+writing code \[4]. Together these shifts make qualitatively new questions tractable on
 instruments we already know how to build, deploy, and govern.
 
 ---
 
 ## Scope
 
-The workshop deliberately concentrates on four coupled topics. Each is a prerequisite for
-the next, and together they form the smallest set that could support a credible joint
-experiment.
-
-We are interested in these questions across the full range of venues where a fixed-location
-agent might be installed: wetlands and rivers, working agricultural land, forests, city
+This one-day workshop concentrates on four interrelated topics, each a prerequisite for
+the next. 
+We are interested in these questions across the full range of venues where fixed-location
+agents might be deployed: wetlands and rivers, working agricultural land, forests, city
 streets and public squares, and the interiors of buildings. These settings differ in
-timescale, in what counts as an event, in power and connectivity, and in who has standing to
-object — and an early task for the workshop is to establish which answers transfer between
+timescale, in what counts as an event, in power and connectivity, and in constraints
+with respect to privacy and culture.
+An imporant goal for the workshop is to explore which answers transfer between
 venues and which are irreducibly local.
 
 **Learning What Is Normal, and Recognising What Is Not**
 
 - Multi-dimensional representations of baseline conditions across camera, lidar, audio, vibration, meteorology, and air quality
-- What constitutes an anomaly worth recording, and how an agent expresses its confidence
 - Robustness of learned baselines to seasonality, sensor drift, and genuine environmental change
-- How "normal" differs by venue — wetland, farm, forest, street, building interior — and which representations transfer
 - Distinguishing a novel observation from a miscalibrated instrument
 
 **Agentic Memory in Service of Situated Understanding**
 
 - Memory organisation, consolidation, and summarisation over months and years of continuous observation
 - Retrieval and indexing strategies for agents reasoning inside fixed context budgets
-- Venues with radically different memory horizons: diurnal building occupancy, seasonal agriculture, multi-year forest and wetland change
 - Forgetting and retention policies, and what an agent should be able to reconstruct later
-- Tool interfaces by which an agent decides what to recall, and at what cost
+- Mechanisms by which an agent decides to consult memory, and approaches for search.
 
-**Frameworks for Testable Experiments**
+**Frameworks and Testable Experiments**
 
 - Agentic frameworks suited to sensor-attached, resource-constrained, long-running deployments
-- Portability across venues and power/connectivity regimes, from mains-powered buildings to off-grid wetland, forest, and field deployments
-- Edge/cloud division of labour, and what breaks over months of unattended operation
-- Shared benchmarks, reference datasets, and evaluation tasks for anomaly and baseline learning
+- Edge/cloud division of labour, integrating modeling (e.g., "Digital Twins" with edge inference
 - Reproducibility and provenance when an observation was requested by an agent
 
 **Coordination Among Fixed Embodied Agents**
 
 - Collective monitoring of a shared subject: a wetland or river catchment, a farm, a forest, a city centre, a building or campus
-- What agents tell their peers, in what representation, and over what bandwidth
-- Shared and federated memory versus message passing, and keeping either consistent and provenanced
-- Organisational structures for agentic monitoring networks, including topologies unworkable for human teams
+- Agentic coordination, from exchanging observation requests to resource and sharing management
+- Communication mechanisms ranging from shared and federated memory to message passing
+- Organisational structures for agentic monitoring networks, including topologies and structures that might be unworkable for human teams
 
 **Topics reserved for a follow-on workshop.** The programme above sets aside several
 subjects that belong to this agenda but cannot be treated seriously in a single day. We
