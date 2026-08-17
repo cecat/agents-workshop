@@ -9,11 +9,6 @@
 **Date:** Wednesday, 28 October 2026
 **Venue:** University of Bristol, Bristol, UK
 
-**Organizers:**
-Theo Tryfonas (University of Bristol) ·
-James Pope (University of Bristol) ·
-Charlie Catlett (Argonne National Laboratory)
-
 ---
 
 ## Abstract
@@ -26,13 +21,13 @@ how embodied agentic systems at fixed locations in natural and urban environment
 a multi-modal sense of what is "typical" — and therefore recognise "unusual" or "interesting"
 events and conditions.
 
-Building on multile intelligent sensing and urban and environmentsl
+Building on multiple intelligent sensing and urban and environmental
 monitoring projects over the past decade, 
 we focus on four coupled questions:
 how agents form and
 maintain representations of baseline conditions and common events;
 how agentic memory architecture and associated tools in agentic frameworks 
-(e.g., OpenClaw, Hermes) make these repreentations
+(e.g., OpenClaw, Hermes) make these representations
 available to agents given limited context constraints;
 what frameworks make such approaches experimentally testable on real instruments; and
 how multiple fixed agents coordinate to monitor a shared subject, such as a wetland,
@@ -41,33 +36,39 @@ river, forest, farm, city centre, or building.
 We invite UK-based researchers with interest and experience in these topics, with the
 goal of identifying and exploring collaborations, including potentially organizing a 
 hackathon in 2027 and a persistent working group through the international Trillion Parameter
-Consortiumn ([TPC](www.tpc.dev)).
+Consortium ([TPC](www.tpc.dev)) \[1].
 
 ---
 
 ## Background
 
 The challenges associated with designing and deploying a scientific instrument in
-the public way, including siting, orations, privacy, and other facets are well
+the public way, including siting, operations, privacy, and other facets are well
 documented, including collaborations between the University of Bristol, the University
-of CHicago, and Argonne National Laboratory on projects such as the Array of Things \[1].
-Eembedding computation with sensors transformed the concept of sensor networkjs from
-from data loggers into programmable, reconfigurable observers able to decide in
-place what is worth recording \[2]. Among the constraints are not only technical
+of Chicago, and Argonne National Laboratory on projects such as the Array of Things \[2].
+Embedding computation with sensors transformed sensor networks from
+data loggers into programmable, reconfigurable observers able to decide in
+place what is worth recording \[3]. Among the constraints are not only technical
 but social, requiring partnerships encompassing residents, local government, and
-researchers, each with standing to shape what gets measured and why \[3].
+researchers, each with standing to shape what gets measured and why \[4].
 
 In the past several years, two new opportunities have emerged. 
-First, egentic AI systems can hold goals, maintain memory over long
-timescales, use tools, and negotiate with one another. 
+First, agentic AI systems can hold goals, maintain memory over long
+timescales, use tools, and negotiate with one another. These change the human-to-AI
+relationship from 1:1 to 1:many (human to a set of agents) and many:many (agents
+interacting). Early experiments already span that range: a single agent running a retail
+business was outperformed by a role-differentiated team of agents \[5], a simulated
+software company assigns agents the roles of a development organisation \[6], and Moltbook,
+a social network open only to AI agents, hosts unsupervised many:many interaction at a
+claimed scale of over a million accounts \[7].
 Second,  protocols such as the Model Context Protocol (MCP) enable agents to
 mediate between the instrument and a human through natural language.
-For example, the Sage project (successor to Array of Thingsd) operates an
+For example, the Sage project (successor to Array of Things) operates an
 MCP server over its ~150-node software-defined sensor network
 and archives, empowering a user to query readings, search node imagery semantically, find an
 existing computer-vision plugin, and deploy observational functions to named nodes —
 "count pedestrians every 15 minutes," "report any sighting of wildfire smoke" — without
-writing code \[4]. Together these shifts make qualitatively new questions tractable on
+writing code \[8]. Together these shifts make qualitatively new questions tractable on
 instruments we already know how to build, deploy, and govern.
 
 ---
@@ -81,7 +82,7 @@ agents might be deployed: wetlands and rivers, working agricultural land, forest
 streets and public squares, and the interiors of buildings. These settings differ in
 timescale, in what counts as an event, in power and connectivity, and in constraints
 with respect to privacy and culture.
-An imporant goal for the workshop is to explore which answers transfer between
+An important goal for the workshop is to explore which answers transfer between
 venues and which are irreducibly local.
 
 **Learning What Is Normal, and Recognising What Is Not**
@@ -100,7 +101,7 @@ venues and which are irreducibly local.
 **Frameworks and Testable Experiments**
 
 - Agentic frameworks suited to sensor-attached, resource-constrained, long-running deployments
-- Edge/cloud division of labour, integrating modeling (e.g., "Digital Twins" with edge inference
+- Edge/cloud division of labour, integrating modeling (e.g., "Digital Twins") with edge inference
 - Reproducibility and provenance when an observation was requested by an agent
 
 **Coordination Among Fixed Embodied Agents**
@@ -175,39 +176,45 @@ that could seed multi-institutional collaborations.
 
 - **Submission deadline:** October 12, 2026
 - **Notification:** October 16, 2026
-- **Contact:** James Pope (jp16127 at bristol dot ac dot uk), Theo Tryfonas (theo dot tryfonas at bristol dot ac dot uk), or Charlie Catlett (catlett at anl dot gov).
+
+**Organizers:**
+
+- James Pope, University of Bristol — jp16127 at bristol dot ac dot uk
+- Theo Tryfonas, University of Bristol — theo dot tryfonas at bristol dot ac dot uk
+- Charlie Catlett, Argonne National Laboratory — catlett at anl dot gov
 
 ---
 
 ## References
 
-1. Catlett, C. E., Beckman, P. H., Sankaran, R., and Galvin, K. K. "Array of Things: A
+1. Trillion Parameter Consortium. "TPC: Introduction and Structure." February 2025.
+   https://tpc.dev/wp-content/uploads/2025/02/TPC-Introduction-and-Structure.pdf
+2. Catlett, C. E., Beckman, P. H., Sankaran, R., and Galvin, K. K. "Array of Things: A
    Scientific Research Instrument in the Public Way — Platform Design and Early Lessons
    Learned." *Proc. 2nd International Workshop on Science of Smart City Operations and
    Platforms Engineering (SCOPE '17)*, ACM, 2017, pp. 26–33.
    https://dl.acm.org/doi/abs/10.1145/3063386.3063771
-2. Catlett, C. E., Beckman, P. H., Sankaran, R., Ferrier, N. J., Park, S., and Kim, Y.
+3. Catlett, C. E., Beckman, P. H., Sankaran, R., Ferrier, N. J., Park, S., and Kim, Y.
    "Software-Defined Sensors: Using Edge Computing to Revolutionize Sensing." *AGU Fall
    Meeting Abstracts*, vol. 2019, IN34A-01, 2019.
    https://ui.adsabs.harvard.edu/abs/2019AGUFMIN34A..01C/abstract
-3. Daepp, M. I. G., Cabral, A., Werner, T. M., Mansour, R., Catlett, C. E., Roseway, A.,
+4. Daepp, M. I. G., Cabral, A., Werner, T. M., Mansour, R., Catlett, C. E., Roseway, A.,
    Needham, C., Udeagbala, N., and Counts, S. "The 'Three-Legged Stool': Designing for
    Equitable City, Community, and Research Partnerships in Urban Environmental Sensing."
    *Proc. 2023 CHI Conference on Human Factors in Computing Systems*, 2023, pp. 1–19.
    https://doi.org/10.1145/3544548.3581289
-4. Sage: A distributed software-defined sensor network — project overview and the Sage MCP
+5. Anthropic and Andon Labs. "Project Vend," phases one and two, 2025 — a single agent
+   versus a role-differentiated team of agents running a small retail business.
+   https://www.anthropic.com/research/project-vend-1 and
+   https://www.anthropic.com/research/project-vend-2
+6. Qian, C., Liu, W., Liu, H., Chen, N., Dang, Y., Li, J., Yang, C., Chen, W., Su, Y.,
+   Cong, X., Xu, J., Li, D., Liu, Z., and Sun, M. "ChatDev: Communicative Agents for
+   Software Development." *Proc. 62nd Annual Meeting of the ACL*, 2024; arXiv:2307.07924.
+   https://arxiv.org/abs/2307.07924
+7. Yildiz, G. "Inside Moltbook: The Social Network Where 1.4 Million AI Agents Talk And
+   Humans Just Watch." *Forbes*, 31 January 2026.
+   https://www.forbes.com/sites/guneyyildiz/2026/01/31/inside-moltbook-the-social-network-where-14-million-ai-agents-talk-and-humans-just-watch/
+8. Sage: A distributed software-defined sensor network — project overview and the Sage MCP
    server. https://sagecontinuum.org/docs/about/overview ,
    https://sagecontinuum.org/labs/sage-mcp , and
    https://github.com/waggle-sensor/sage-mcp
-
-### Further reading
-
-- Trillion Parameter Consortium — overview, structure, and working groups:
-  https://tpc.dev/ and
-  https://tpc.dev/wp-content/uploads/2025/02/TPC-Introduction-and-Structure.pdf
-- Project Vend, phases one and two (Anthropic with Andon Labs, December 2025) —
-  single-agent versus role-differentiated agent teams:
-  https://www.anthropic.com/research/project-vend-1 ,
-  https://www.anthropic.com/research/project-vend-2
-- Qian, C., et al. "ChatDev: Communicative Agents for Software Development." ACL 2024;
-  arXiv:2307.07924. https://arxiv.org/abs/2307.07924
