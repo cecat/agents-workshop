@@ -18,18 +18,29 @@ Charlie Catlett (Argonne National Laboratory)
 
 ## Abstract
 
-A fixed sensor records; an agent could come to know a place. This one-day workshop asks
+Sensor networks record conditions and events using sensors ranging from thermometers to Lidar
+imagers.  Combining sensor nodes with AI agents opens the potential for those agents to 
+"come to know" their surroundings.
+This one-day workshop asks
 how embodied agentic systems at fixed locations in natural and urban environments develop
-a multi-modal sense of what is normal — and therefore recognise what is not. Building on a
-decade of software-defined sensing, and on new protocols that let language models drive
-measurement infrastructure, we focus on four coupled questions: how agents form and
-maintain representations of baseline conditions; how agentic memory systems consolidate and
-retrieve the observations those representations require under fixed context budgets; what
-frameworks make such approaches experimentally testable on real instruments; and how
-multiple fixed agents coordinate to monitor a shared subject — a wetland, river, forest,
-farm, city centre, or building. We invite UK-based researchers
-across environmental and urban sensing, agentic AI, and data governance. A closing session
-will scope Trillion Parameter Consortium working groups.
+a multi-modal sense of what is "typical" — and therefore recognise "unusual" or "interesting"
+events and conditions. Building on a
+decade of environmental and urban software-defined sensing, and on new approaches
+such as Model COntext Protocol (MCP) servicews that that enable
+language models to drive
+measurement infrastructure, we focus on four coupled questions:
+how agents form and
+maintain representations of baseline conditions and common events;
+how agentic memory systems consolidate and retrieve the observations those representations
+require given limited context constraints;
+what frameworks make such approaches experimentally testable on real instruments; and
+how multiple fixed agents coordinate to monitor a shared subject, such as a wetland,
+river, forest, farm, city centre, or building.
+
+We invite UK-based researchers with interest and experience in these topics, with the
+goal of identifying and exploring collaborations, potentially proposing a future
+hackathon and a persistent working group through the international Trillion Parameter
+Consortiumn ([TPC](www.tpc.dev)).
 
 ---
 
