@@ -1,10 +1,6 @@
 # Call for Participation — Draft
 
-**Candidate titles**
-
-1. **A Feel for the Place: Embodied Agentic Systems that Sense, Remember, and Forget**
-2. **Agents in Place: Learning What Is Normal in Natural and Urban Environments**
-3. **Sensing Without Surveilling: Agentic Intelligence for Environmental and Urban Observation**
+**Embodied Agentic Systems for Urban and Environhmental Observation**
 
 **Tentative Date:** Wednesday, 28 October 2026
 
