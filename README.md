@@ -1,12 +1,10 @@
 # Call for Participation — Draft
 
-## Candidate titles
+**Candidate titles**
 
 1. **A Feel for the Place: Embodied Agentic Systems that Sense, Remember, and Forget**
-2. **Agents in Place: Memory, Anomaly, and Privacy in Sensor-Rich Environments**
-3. **Sensing Without Surveilling: Agentic Intelligence for Smart Buildings and Cities**
-
----
+2. **Agents in Place: Learning What Is Normal in Natural and Urban Environments**
+3. **Sensing Without Surveilling: Agentic Intelligence for Environmental and Urban Observation**
 
 **Date:** Wednesday, 28 October 2026
 **Venue:** University of Bristol, Bristol, UK
@@ -18,146 +16,154 @@ Charlie Catlett (Argonne National Laboratory)
 
 ---
 
-## Workshop description
+## Abstract
 
-A fixed sensor in a building or on a street corner records. An *agent* in that same
-location could instead come to know the place — the ordinary rhythm of a Tuesday lunch
-hour, the particular sound of a bus turning, and therefore the bang that does not belong.
-This one-day workshop asks what it takes to build embodied agentic systems that develop
-that kind of situated intuition, and how to do it without building a surveillance
-apparatus along the way.
-
-The premise is not speculative. Deploying a scientific instrument in the public way is
-a solved-enough problem that its early lessons — on siting, on operations, and on the
-privacy commitments that make a public deployment defensible — are already documented
-\[1]. Moving computation to the sensor turned those instruments from data loggers into
-programmable, reconfigurable observers, capable of deciding in place what is worth
-recording \[2]. And the hardest constraint is not technical: equitable urban sensing
-depends on a "three-legged stool" of city, community, and research partners, each with
-standing to shape what gets measured and why \[3]. What has changed is the software.
-Agentic AI systems can now hold goals, maintain memory across long timescales, use tools,
-and negotiate with one another. This workshop asks what that shift makes newly possible on
-instruments we already know how to build, deploy, and govern.
-
-A second shift is quieter but may matter more for who gets to participate. Protocols such
-as the Model Context Protocol (MCP) let a language model drive measurement infrastructure
-directly, so the interface to an instrument becomes a conversation rather than an API. The
-Sage project (sagecontinuum.org) runs an MCP server over its ~100-node software-defined
-sensor network and data archive: a user can ask what the warmest node in Chicago is
-reading, search thousands of node images semantically, find an existing computer-vision
-plugin, and deploy an observational function to named nodes — "count pedestrians every 15
-minutes," "report any sighting of wildfire smoke" — without writing code or reading
-documentation \[4]. Built for scientists, an interface like this dissolves the expertise
-barrier that has kept policy makers, city staff, community groups, and students in the role
-of audience rather than instrument users. That is a governance question as much as a
-usability one: when anyone can task a sensor network in plain language, who may ask what of
-which instrument, and what does the network refuse?
-
-We bring together three communities that rarely share a room for a full day: researchers
-in **smart cities and smart buildings** (urban sensing, building systems, environmental
-and civic monitoring), researchers in **agentic AI systems** (memory architectures,
-context management, coordination and communication among agents), and researchers in
-**privacy, ethics, and governance**. Our starting problems are deliberately concrete:
-fixed-location agents fusing camera, lidar, audio, vibration, meteorological, and
-air-quality streams to detect anomalies and infer correlation — and eventually causation —
-across modalities; agents that anticipate occupancy and pre-position lighting, HVAC, and
-other resources; agents that share observations and memory with peers so that a pattern
-learned at one corner informs the next; and architectures where retention is
-*event-triggered* rather than continuous, so that a rolling buffer plus an anomaly
-detector replaces the archive.
-
-The workshop is structured for output, not broadcast. Short framing talks and lightning
-contributions give way to facilitated sessions that surface shared testbeds, common
-evaluation tasks, and candidate joint proposals. Our explicit goal is to identify
-collaborative projects between UK and US scientists — pairing sites, instruments, and
-data-governance regimes across the two countries — and to leave with named teams, scoped
-questions, and a route to funding. The closing session will consider how to carry the most
-promising of those topics forward through the **Trillion Parameter Consortium**, an
-international collaboration of some 80 organisations and more than 1,200 participants
-whose self-organising working groups are exactly the vehicle an emerging UK–US effort in
-this area would need. We aim to leave Bristol with a concrete proposal for one or more
-new TPC working groups.
-
-**We invite** position papers, testbed and dataset descriptions, negative results, and
-provocations (1–2 pages) from UK-based researchers and practitioners in any of the above
-communities, including city agencies, building operators, and civil-society organisations.
+A fixed sensor records; an agent could come to know a place. This one-day workshop asks
+how embodied agentic systems at fixed locations in natural and urban environments develop
+a multi-modal sense of what is normal — and therefore recognise what is not. Building on a
+decade of software-defined sensing, and on new protocols that let language models drive
+measurement infrastructure, we focus on four coupled questions: how agents form and
+maintain representations of baseline conditions; how agentic memory systems consolidate and
+retrieve the observations those representations require under fixed context budgets; what
+frameworks make such approaches experimentally testable on real instruments; and how
+multiple fixed agents coordinate to monitor a shared subject — a wetland, river, forest,
+farm, city centre, or building. We invite UK-based researchers
+across environmental and urban sensing, agentic AI, and data governance. A closing session
+will scope Trillion Parameter Consortium working groups.
 
 ---
 
-## Key areas of interest
+## Background
 
-1. **Multimodal "normal" and the detection of anomaly.** How does an agent build a
-   multi-dimensional representation of baseline conditions across camera, lidar, audio,
-   vibration, meteorology, and air quality — and what counts as an interesting departure
-   from it? We are interested in representations that hold up across seasons, sensor
-   drift, and genuine change in the environment.
+Deploying a scientific instrument in the public way is a solved-enough problem that its
+early lessons — on siting, on operations, and on the privacy commitments that make a public
+deployment defensible — are documented \[1]. Moving computation to the sensor turned those
+instruments from data loggers into programmable, reconfigurable observers able to decide in
+place what is worth recording \[2]. The hardest constraint is not technical: equitable
+environmental sensing depends on a "three-legged stool" of civic, community, and research
+partners, each with standing to shape what gets measured and why \[3].
 
-2. **Cross-modal correlation and the road to causation.** A loud bang co-occurring with
-   a sudden change in traffic flow is more informative than either signal alone. What
-   methods let an agent learn these couplings in situ, distinguish coincidence from
-   mechanism, and report its confidence honestly?
+Two things have now changed. Agentic AI systems can hold goals, maintain memory over long
+timescales, use tools, and negotiate with one another. And protocols such as the Model
+Context Protocol (MCP) make the interface to an instrument a conversation rather than an
+API: the Sage project runs an MCP server over its ~100-node software-defined sensor network
+and archive, so a user can query readings, search node imagery semantically, find an
+existing computer-vision plugin, and deploy an observational function to named nodes —
+"count pedestrians every 15 minutes," "report any sighting of wildfire smoke" — without
+writing code \[4]. Together these shifts make a genuinely new question tractable on
+instruments we already know how to build, deploy, and govern.
 
-3. **Agentic memory: private, shared, and communicated.** Agents reason inside fixed
-   context windows and cannot hold all of memory at once, so we seek work on memory
-   organisation, consolidation, retrieval and indexing, forgetting policies, and the tool
-   interfaces by which an agent decides what to recall. Coordination is then largely a
-   data-sharing problem: what an agent tells its peers, in what representation, and how a
-   shared or federated memory stays consistent, provenanced, and affordable over
-   constrained edge links — blackboard and shared-store designs versus message passing, and
-   whether agents should exchange raw observations, learned features, or natural-language
-   summaries.
+---
 
-4. **Anticipatory resource management in buildings.** Occupancy has structure: weekday
-   arrival and departure, the lunch hour, term time, weather-driven exceptions. How can
-   agents learn these trends well enough to pre-act on lighting, HVAC, and ventilation,
-   and how should they behave when their prediction is wrong?
+## Scope
 
-5. **Event-triggered capture as a privacy architecture.** A dashcam-style design — a
-   rolling buffer of several minutes, retained only when an anomaly fires — preserves the
-   scientific record while declining to build a longitudinal one. We want to interrogate
-   this pattern: buffer length, trigger reliability, on-device processing, derived-feature
-   retention, and what it fails to protect.
+The workshop deliberately concentrates on four coupled topics. Each is a prerequisite for
+the next, and together they form the smallest set that could support a credible joint
+experiment.
 
-6. **Privacy, ethics, and public legitimacy in sensor-rich places.** Beyond technical
-   minimisation: consent and notice in public space, disparate impact of urban sensing,
-   auditability, and how UK and US legal regimes (UK GDPR and the Data Protection Act,
-   US state-level and sectoral law) shape what a joint testbed can actually do. We are
-   especially interested in how the city–community–research partnership model \[3] changes
-   when the thing being sited is an autonomous agent rather than a sensor.
+We are interested in these questions across the full range of venues where a fixed-location
+agent might be installed: wetlands and rivers, working agricultural land, forests, city
+streets and public squares, and the interiors of buildings. These settings differ in
+timescale, in what counts as an event, in power and connectivity, and in who has standing to
+object — and an early task for the workshop is to establish which answers transfer between
+venues and which are irreducibly local.
 
-7. **Frameworks, protocols, and interoperability for embodied agents.** Practical
-   assessment of agentic frameworks and emerging interoperability standards for
-   sensor-attached, resource-constrained, long-running agents — including tool interfaces,
-   edge/cloud division of labour, and what breaks over months of continuous operation.
+**Learning What Is Normal, and Recognising What Is Not**
 
-8. **Human–agent interfaces: expert operators and non-expert publics.** For a human to use
-   many agents as a force multiplier the fleet must be legible — interaction patterns,
-   summarisation and escalation, trust calibration, and interfaces for domain experts who
-   are not AI researchers. The same protocols also admit a much wider set of users \[4], so
-   we want work on what conversational access changes for policy makers, city staff,
-   residents, and students: authorisation and quota models, provenance and reproducibility
-   when a measurement was requested in plain language, and how a network validates that such
-   a request means what the requester thinks it means.
+- Multi-dimensional representations of baseline conditions across camera, lidar, audio, vibration, meteorology, and air quality
+- What constitutes an anomaly worth recording, and how an agent expresses its confidence
+- Robustness of learned baselines to seasonality, sensor drift, and genuine environmental change
+- How "normal" differs by venue — wetland, farm, forest, street, building interior — and which representations transfer
+- Distinguishing a novel observation from a miscalibrated instrument
 
-9. **Organisational structures for agent workforces.** Humans instinctively build
-    hierarchies. Anthropic and Andon Labs' *Project Vend* found that a single shopkeeper
-    agent lost money and was talked into giving stock away, while a phase-two team — a
-    "Claudius" shopkeeper, a "Seymour Cash" CEO agent setting objectives, and a "Clothius"
-    merchandising agent — largely eliminated loss-making weeks, though the CEO agent
-    approved lenient requests roughly eight times more often than it refused them. Qian et
-    al.'s *ChatDev* organises agents into a waterfall software company (CEO, CTO,
-    programmer, reviewer, tester) and reports that natural language suits design discussion
-    while code suits debugging. We ask which structures — and which communication
-    topologies — actually optimise *agentic* workforces, including arrangements that would
-    be unworkable for human organisations.
+**Agentic Memory in Service of Situated Understanding**
 
-10. **Agent-to-agent societies and their failure modes.** *Moltbook*, launched in early
-    2026 as a Reddit-style network open only to AI agents (with humans permitted to watch),
-    produced spontaneous emergent culture — self-organised communities, an agent-invented
-    religion — alongside sobering security behaviour, including agents trading prompt
-    injections as "digital drugs" and serious doubt about how many participants were agents
-    at all. What do such open agent populations teach us about coordination, contagion, and
-    trust between agents that must cooperate across institutional boundaries?
+- Memory organisation, consolidation, and summarisation over months and years of continuous observation
+- Retrieval and indexing strategies for agents reasoning inside fixed context budgets
+- Venues with radically different memory horizons: diurnal building occupancy, seasonal agriculture, multi-year forest and wetland change
+- Forgetting and retention policies, and what an agent should be able to reconstruct later
+- Tool interfaces by which an agent decides what to recall, and at what cost
+
+**Frameworks for Testable Experiments**
+
+- Agentic frameworks suited to sensor-attached, resource-constrained, long-running deployments
+- Portability across venues and power/connectivity regimes, from mains-powered buildings to off-grid wetland, forest, and field deployments
+- Edge/cloud division of labour, and what breaks over months of unattended operation
+- Shared benchmarks, reference datasets, and evaluation tasks for anomaly and baseline learning
+- Reproducibility and provenance when an observation was requested by an agent
+
+**Coordination Among Fixed Embodied Agents**
+
+- Collective monitoring of a shared subject: a wetland or river catchment, a farm, a forest, a city centre, a building or campus
+- What agents tell their peers, in what representation, and over what bandwidth
+- Shared and federated memory versus message passing, and keeping either consistent and provenanced
+- Organisational structures for agentic monitoring networks, including topologies unworkable for human teams
+
+**Topics reserved for a follow-on workshop.** The programme above sets aside several
+subjects that belong to this agenda but cannot be treated seriously in a single day. We
+expect to take them up at a subsequent meeting, and welcome expressions of interest from
+participants who would help shape it: inferring cross-modal *correlation and eventually
+causation*, where a loud bang co-occurring with a change in traffic flow is more
+informative than either signal alone; *anticipatory resource management* in smart buildings,
+where agents pre-position lighting and HVAC against learned occupancy rhythms;
+*event-triggered capture as a privacy architecture*, in which a rolling buffer retained only
+when an anomaly fires replaces the continuous archive; the wider questions of *privacy,
+ethics, and public legitimacy* in sensor-rich places, including how UK and US regimes shape
+what a joint testbed may do; *human–agent interfaces* for expert operators and for the
+policy makers, city staff, residents, and students that conversational access newly admits;
+and the *failure modes of open agent societies*, where experiments such as Moltbook have
+produced emergent culture alongside agents trading prompt injections as "digital drugs."
+
+---
+
+## Workshop structure
+
+A single day built around discussion rather than presentation. Talks are short and exist to
+frame argument; the majority of the day is unstructured group discussion.
+
+- **Opening (90 min).** Two 15-minute framing talks, followed by 60 minutes of plenary
+  discussion to establish shared vocabulary and surface disagreement early.
+- **Three thematic sessions (90 min each).** Each comprises three 10-minute talks grouped by
+  topic, followed by a full hour of group discussion.
+- **Closing session.** Consolidation of candidate collaborations, and a discussion of how to
+  carry the most promising topics forward as one or more **Trillion Parameter Consortium**
+  working groups — TPC being an international collaboration of some 80 organisations and
+  1,200+ participants whose self-organising working groups are the natural vehicle for an
+  emerging UK–US effort in this area.
+
+Nine short talks will be selected from submissions and grouped into the three sessions,
+provisionally: *Learning What Is Normal*; *Memory and Frameworks*; and *Coordination Among
+Fixed Agents*.
+
+**Indicative timetable**
+
+| | |
+|---|---|
+| 09:00 | Welcome and introductions |
+| 09:15 | Two framing talks (15 min each) |
+| 09:45 | Plenary discussion |
+| 10:45 | Break |
+| 11:00 | Session 1 — three talks, then discussion |
+| 12:30 | Lunch |
+| 13:15 | Session 2 — three talks, then discussion |
+| 14:45 | Break |
+| 15:00 | Session 3 — three talks, then discussion |
+| 16:30 | Closing: collaborations and TPC working groups |
+| 17:15 | Close |
+
+---
+
+## Submissions
+
+**We invite** proposals for 10-minute talks, along with position papers, testbed and dataset
+descriptions, and negative results, from UK-based researchers and practitioners across
+environmental and urban sensing, agentic AI systems, and data governance. Submissions of
+1–2 pages are reviewed by the organizing committee, with priority given to contributions
+that could seed a multi-institutional collaboration.
+
+- **Submission deadline:** *[to be set]*
+- **Notification:** *[to be set]*
+- **Contact:** *[to be set]*
 
 ---
 
@@ -187,14 +193,9 @@ communities, including city agencies, building operators, and civil-society orga
 - Trillion Parameter Consortium — overview, structure, and working groups:
   https://tpc.dev/ and
   https://tpc.dev/wp-content/uploads/2025/02/TPC-Introduction-and-Structure.pdf
-
-### Sources for the agent-organisation examples
-
-- Project Vend, phase one and phase two (Anthropic, with Andon Labs; phase two published
-  December 2025): https://www.anthropic.com/research/project-vend-1 and
+- Project Vend, phases one and two (Anthropic with Andon Labs, December 2025) —
+  single-agent versus role-differentiated agent teams:
+  https://www.anthropic.com/research/project-vend-1 ,
   https://www.anthropic.com/research/project-vend-2
-- Qian, C., Liu, W., Liu, H., Chen, N., Dang, Y., Li, J., Yang, C., Chen, W., Su, Y.,
-  Cong, X., Xu, J., Li, D., Liu, Z., Sun, M. "ChatDev: Communicative Agents for Software
-  Development." ACL 2024; arXiv:2307.07924. https://arxiv.org/abs/2307.07924
-- Moltbook (created by Matt Schlicht; press coverage January–February 2026; reported
-  acquired by Meta in March 2026): Forbes, NBC News, The Conversation, Futurism.
+- Qian, C., et al. "ChatDev: Communicative Agents for Software Development." ACL 2024;
+  arXiv:2307.07924. https://arxiv.org/abs/2307.07924
