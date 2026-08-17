@@ -7,7 +7,8 @@
 3. **Sensing Without Surveilling: Agentic Intelligence for Environmental and Urban Observation**
 
 **Tentative Date:** Wednesday, 28 October 2026
-**Venue:** University of Bristol, Bristol, UK
+
+**Venue:** University of Bristol, Bristol, UK (specific roomm tbd)
 
 ---
 
