@@ -13,9 +13,13 @@
 
 ## Abstract
 
-Sensor networks record conditions and events using sensors ranging from thermometers to Lidar
-imagers.  Combining sensor nodes with AI agents opens the potential for those agents to 
-"come to know" their surroundings.
+Sensor networks record conditions and events using sensors ranging from straightforward
+measurements such as of temperature, light, etc . to data streams such as from microphones
+or imaging devices such as camearas or Lidar.
+Combining sensor nodes with AI has enabled scientists to create new kinds of measurements,
+such as related to pedstrian flow or bird migration patterns, which require *observation*
+and *interpretation*.  More recently, AI agents open the potential for software-defined
+sensor nodes to "come to know" their surroundings.
 This one-day workshop asks
 how embodied agentic systems at fixed locations in natural and urban environments develop
 a multi-modal sense of what is "typical" — and therefore recognise "unusual" or "interesting"
@@ -28,7 +32,7 @@ how agents form and
 maintain representations of baseline conditions and common events;
 how agentic memory architecture and associated tools in agentic frameworks 
 (e.g., OpenClaw, Hermes) make these representations
-available to agents given limited context constraints;
+available to agents given context constraints;
 what frameworks make such approaches experimentally testable on real instruments; and
 how multiple fixed agents coordinate to monitor a shared subject, such as a wetland,
 river, forest, farm, city centre, or building.
