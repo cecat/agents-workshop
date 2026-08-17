@@ -4,7 +4,7 @@
 
 **Tentative Date:** Wednesday, 28 October 2026
 
-**Venue:** University of Bristol, Bristol, UK (specific roomm tbd)
+**Venue:** University of Bristol, Bristol, UK (specific room tbd)
 
 ---
 
