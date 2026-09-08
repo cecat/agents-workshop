@@ -1,6 +1,6 @@
 # Call for Participation 
 
-**Embodied Agentic Systems for Urban and Environmental Observation**
+**Informal Workshop on Embodied Agentic Systems for Urban and Environmental Observation**
 
 **Tentative Date:** Wednesday, 28 October 2026
 
