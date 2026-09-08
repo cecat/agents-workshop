@@ -1,10 +1,10 @@
-# Call for Participation — Draft
+# Call for Participation 
 
-**Embodied Agentic Systems for Urban and Environhmental Observation**
+**Embodied Agentic Systems for Urban and Environmental Observation**
 
 **Tentative Date:** Wednesday, 28 October 2026
 
-**Venue:** University of Bristol, Bristol, UK (specific room tbd)
+**Venue:** University of Bristol, Bristol, UK (building and room tbd)
 
 ---
 
