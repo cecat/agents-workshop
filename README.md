@@ -2,9 +2,15 @@
 
 **Informal Workshop on Embodied Agentic Systems for Urban and Environmental Observation**
 
-**Tentative Date:** Wednesday, 28 October 2026
+**Date:** Wednesday, 28 October 2026
 
-**Venue:** University of Bristol, Bristol, UK (building and room tbd)
+**Time:** 09:00–17:00 GMT (Bristol local time)
+
+**Venue:** Room 5.703, fifth floor, Sloane Robinson Building, University of Bristol, Bristol, UK
+
+**Online participation:** Via Microsoft Teams; joining details will be shared with participants.
+
+**[Draft programme — 09:00–17:00 GMT](workshop-agenda.md)**
 
 ---
 
@@ -135,38 +141,18 @@ produced emergent culture alongside agents trading prompt injections as "digital
 
 ## Workshop structure
 
-A single day built around discussion rather than presentation. Talks are short and exist to
-frame argument; the majority of the day is unstructured group discussion.
+A single day built around discussion and collaboration. Short contributions and an
+afternoon demonstration provide starting points for group discussion, drawing on
+perspectives from environmental observation, manufacturing, building management,
+AI computing infrastructure and publishing.
 
-- **Opening (90 min).** Two 15-minute framing talks, followed by 60 minutes of plenary
-  discussion to establish shared vocabulary and surface disagreement early.
-- **Three thematic sessions (90 min each).** Each comprises three 10-minute talks grouped by
-  topic, followed by a full hour of group discussion.
-- **Closing session.** Consolidation of candidate collaborations, and a discussion of how to
-  carry the most promising topics forward as one or more **Trillion Parameter Consortium**
-  working groups — TPC being an international collaboration of some 80 organisations and
-  1,200+ participants whose self-organising working groups are the natural vehicle for an
-  emerging UK–US effort in this area.
+The programme includes time to develop candidate joint research projects and closes
+with agreement on priorities and next steps, including potential collaborations and
+Trillion Parameter Consortium working groups. Lunch and two breaks are included.
 
-Nine short talks will be selected from submissions and grouped into the three sessions,
-provisionally: *Learning What Is Normal*; *Memory and Frameworks*; and *Coordination Among
-Fixed Agents*.
-
-**Indicative timetable**
-
-| | |
-|---|---|
-| 09:00 | Welcome and introductions |
-| 09:15 | Two framing talks (15 min each) |
-| 09:45 | Plenary discussion |
-| 10:30 | Break |
-| 11:00 | Session 1 — three talks, then discussion |
-| 12:30 | Lunch |
-| 14:00 | Session 2 — three talks, then discussion |
-| 15:30 | Break |
-| 16:00 | Session 3 — three talks, then discussion |
-| 17:30 | Closing discussion and next steps |
-| 17:45 | Adjourn |
+See the **[draft programme](workshop-agenda.md)** for session times, speakers and topics.
+The workshop runs **09:00–17:00 GMT**. The programme is provisional and will be updated
+as arrangements and talk titles are confirmed.
 
 ---
 
