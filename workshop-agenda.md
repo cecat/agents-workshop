@@ -7,7 +7,7 @@
 **Venue:** Room 5.703, fifth floor, Sloane Robinson Building, University of Bristol, Bristol, UK  
 **Online participation:** Via Microsoft Teams; joining details will be shared with participants.
 
-**Last updated:** 15 October 2026. This is a draft programme. Session times and topics are provisional and may change; titles awaiting confirmation are marked below.
+**Last updated:** 20 October 2026. This is a draft programme. Session times and topics are provisional and may change; titles awaiting confirmation are marked below.
 
 The workshop brings together researchers and practitioners to explore embodied agentic systems for urban and environmental observation and identify opportunities for collaboration. Short contributions and a demonstration will provide starting points for group discussion.
 
@@ -24,14 +24,14 @@ The workshop brings together researchers and practitioners to explore embodied a
 | 11:30–12:00 | IOP ML journals and AI/ethics in publishing — proposed topic, final title to be confirmed | Antigoni Messaritaki · In person |
 | 12:00–12:30 | Discussion: connections between sensing, simulation and adaptive intervention | Group discussion |
 | 12:30–13:30 | **Lunch** | |
-| 13:30–14:15 | Demonstration and discussion — title to be confirmed | Charlie Catlett · Participation mode to be confirmed |
+| 13:30–14:15 | Agents Reducing Barriers to Using Urban and Environmental Instruments — talk and discussion | Charlie Catlett · Online |
 | 14:15–14:45 | Collaborative working session: develop candidate joint research projects | Group discussion |
 | 14:45–15:15 | **Afternoon break** | |
 | 15:15–15:45 | BriCS user case studies — final title to be confirmed | Andy Hazell · Participation mode to be confirmed |
 | 15:45–16:30 | Discussion: computing needs, collaboration partners and barriers | Group discussion |
 | 16:30–17:00 | Agree priorities, next steps and follow-up; close | Organisers and participants |
 
-Presentation sessions include time for discussion. Chris Cooper and Ashik Sunilkumar share a 20-minute slot; Charlie Catlett's demonstration is scheduled in the afternoon.
+Presentation sessions include time for discussion. Chris Cooper and Ashik Sunilkumar share a 20-minute slot; Charlie Catlett's online contribution is scheduled immediately after lunch, with a 15–20-minute talk followed by discussion within the allocated block.
 
 ## Participation and contact
 
