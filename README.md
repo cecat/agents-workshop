@@ -176,6 +176,10 @@ that could seed multi-institutional collaborations.
 
 ---
 
+## Acknowledgement
+
+We gratefully acknowledge the support of the [ELABORATOR project](https://www.elaborator-project.eu/) for this workshop. ELABORATOR develops approaches to safe, inclusive and sustainable urban mobility. The University of Bristol’s participation is supported by UKRI under grant **10069203**. See the [University of Bristol project page](https://research-information.bris.ac.uk/en/projects/elaborator/) for further information.
+
 ## References
 
 1. Trillion Parameter Consortium. "TPC: Introduction and Structure." February 2025.

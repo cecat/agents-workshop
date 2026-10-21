@@ -18,7 +18,7 @@ The workshop brings together researchers and practitioners to explore embodied a
 | 09:00–09:20 | Welcome, introductions and workshop objectives | Organisers |
 | 09:20–09:40 | Discussion: urban and environmental observation challenges and potential collaborations | Group discussion |
 | 09:40–10:00 | Entelligently: automated comfort management and AI-based digital twins — final title to be confirmed | Chris Cooper and Ashik Sunilkumar (BSI) · Online |
-| 10:00–10:30 | Contribution and discussion — title to be confirmed | Omer Rana (Cardiff University) · Online |
+| 10:00–10:30 | Latency-Aware Computing — talk and discussion | Omer Rana (Cardiff University) · Online |
 | 10:30–11:00 | **Morning break** | |
 | 11:00–11:30 | Real-time simulation of composite structures during manufacturing — final title to be confirmed | Bassam Elsaied (University of Bristol) · Participation arrangements to be confirmed |
 | 11:30–12:00 | IOP ML journals and AI/ethics in publishing — proposed topic, final title to be confirmed | Antigoni Messaritaki (IOP Publishing) · In person |
