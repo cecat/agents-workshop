@@ -21,7 +21,7 @@ The workshop brings together researchers and practitioners to explore embodied a
 | 10:00–10:30 | Latency-Aware Computing — talk and discussion | Omer Rana (Cardiff University) · Online |
 | 10:30–11:00 | **Morning break** | |
 | 11:00–11:30 | Real-time simulation of composite structures during manufacturing — final title to be confirmed | Bassam Elsaied (University of Bristol) · Participation arrangements to be confirmed |
-| 11:30–12:00 | IOP ML journals and AI/ethics in publishing — proposed topic, final title to be confirmed | Antigoni Messaritaki (IOP Publishing) · In person |
+| 11:30–12:00 | IOP ML journals and AI/ethics in publishing — Publication Ethics and AI | Antigoni Messaritaki (IOP Publishing) · In person |
 | 12:00–12:30 | Discussion: connections between sensing, simulation and adaptive intervention | Group discussion |
 | 12:30–13:30 | **Lunch** | |
 | 13:30–14:15 | Agents Reducing Barriers to Using Urban and Environmental Instruments — talk and discussion | Charlie Catlett (Argonne National Laboratory) · Online |
