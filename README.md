@@ -4,13 +4,13 @@
 
 **Date:** Wednesday, 28 October 2026
 
-**Time:** 09:00–17:00 GMT (Bristol local time)
+**Time:** 09:00–16:30 GMT (Bristol local time)
 
 **Venue:** Room 5.703, fifth floor, Sloane Robinson Building, University of Bristol, Bristol, UK
 
 **Online participation:** Via Microsoft Teams; joining details will be shared with participants.
 
-**[Draft programme — 09:00–17:00 GMT](workshop-agenda.md)**
+**[Draft programme — 09:00–16:30 GMT](workshop-agenda.md)**
 
 ---
 
@@ -151,7 +151,7 @@ with agreement on priorities and next steps, including potential collaborations 
 Trillion Parameter Consortium working groups. Lunch and two breaks are included.
 
 See the **[draft programme](workshop-agenda.md)** for session times, speakers and topics.
-The workshop runs **09:00–17:00 GMT**. The programme is provisional and will be updated
+The workshop runs **09:00–16:30 GMT**. The programme is provisional and will be updated
 as arrangements and talk titles are confirmed.
 
 ---
